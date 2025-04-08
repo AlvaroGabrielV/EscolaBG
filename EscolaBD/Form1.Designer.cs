@@ -259,6 +259,7 @@
             alunosGrid.Name = "alunosGrid";
             alunosGrid.Size = new Size(987, 328);
             alunosGrid.TabIndex = 6;
+            alunosGrid.CellClick += alunosGrid_RowEnter;
             // 
             // delete_btn
             // 
@@ -268,7 +269,7 @@
             delete_btn.Depth = 0;
             delete_btn.HighEmphasis = true;
             delete_btn.Icon = null;
-            delete_btn.Location = new Point(801, 197);
+            delete_btn.Location = new Point(787, 197);
             delete_btn.Margin = new Padding(4, 6, 4, 6);
             delete_btn.MouseState = MaterialSkin.MouseState.HOVER;
             delete_btn.Name = "delete_btn";
@@ -279,6 +280,7 @@
             delete_btn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             delete_btn.UseAccentColor = false;
             delete_btn.UseVisualStyleBackColor = true;
+            delete_btn.Click += delete_btn_Click;
             // 
             // alter_btn
             // 
@@ -288,7 +290,7 @@
             alter_btn.Depth = 0;
             alter_btn.HighEmphasis = true;
             alter_btn.Icon = null;
-            alter_btn.Location = new Point(447, 197);
+            alter_btn.Location = new Point(422, 197);
             alter_btn.Margin = new Padding(4, 6, 4, 6);
             alter_btn.MouseState = MaterialSkin.MouseState.HOVER;
             alter_btn.Name = "alter_btn";
@@ -299,6 +301,7 @@
             alter_btn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             alter_btn.UseAccentColor = false;
             alter_btn.UseVisualStyleBackColor = true;
+            alter_btn.Click += alter_btn_Click;
             // 
             // add_btn
             // 
